@@ -7,15 +7,15 @@ LAB para executar de app spring boot grade fazendo uso do recurso redis feature 
 - Docker
 - Docker-compose
 
-** Execução dos container redis**
+**Execução dos container redis**
 ```bash
 docker-compose -f redis/docker-compose.yml up
 ```
-** Construção do projeto java **
+**Construção do projeto java**
 ```bash
 ./gradlew clean build
 ```
-** Execução **
+**Execução**
 ```bash
 ./gradlew bootRun
 ```
