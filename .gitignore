@@ -2,3 +2,6 @@
 spring-redis-docker-example.iml
 spring-redis-docker-example.ipr
 spring-redis-docker-example.iws
+/.gradle/
+/.idea/
+/build/

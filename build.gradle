@@ -23,6 +23,7 @@ dependencies {
     compile 'com.google.guava:guava:21.0'
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-data-redis")
+    compile ("org.springframework.boot:spring-boot-starter-cache")
     compile("org.springframework.boot:spring-boot-starter-actuator")
     testCompile("junit:junit")
 }
